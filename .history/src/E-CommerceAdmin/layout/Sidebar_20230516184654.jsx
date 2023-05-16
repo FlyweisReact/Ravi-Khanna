@@ -69,8 +69,8 @@ const Sidebar = ({ hamb, setHamb }) => {
 
     {
       icon: <i className="fa-solid fa-truck  text-xl mr-3 rounded-full"></i>,
-      link: "/tracking",
-      name: "Tracking",
+      link: "/Support",
+      name: "Offer",
     },
 
     {
@@ -152,7 +152,13 @@ const Sidebar = ({ hamb, setHamb }) => {
               </Link>
             );
           })}
-         
+          <span
+            className="flex my-3 items-center cursor-pointer text-gray-900    tracking-wider p-2 rounded-sm"
+            style={{ color: "#FFF", textTransform: "uppercase" }}
+          >
+            <i className="fa-solid fa-truck  text-xl mr-3 rounded-full"></i>{" "}
+            Tracking
+          </span>
           <span
             className="flex my-3 items-center cursor-pointer text-gray-900    tracking-wider p-2 rounded-sm"
             onClick={() => logOut()}

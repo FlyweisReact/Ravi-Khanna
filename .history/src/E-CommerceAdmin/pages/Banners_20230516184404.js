@@ -37,10 +37,6 @@ const Banners = () => {
               <Form.Label>Image</Form.Label>
               <Form.Control type="file" />
             </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>Content</Form.Label>
-              <Form.Control type="text" />
-            </Form.Group>
             <Button variant="outline-success" type="submit">
               Submit
             </Button>
@@ -67,7 +63,7 @@ const Banners = () => {
         >
           All Blogs ( Total : {data.length} )
         </span>
-        <button onClick={() => setModalShow(true)}  className="md:py-2 px-3 md:px-4 py-1 rounded-sm bg-[#19376d] text-white tracking-wider">
+        <button className="md:py-2 px-3 md:px-4 py-1 rounded-sm bg-[#19376d] text-white tracking-wider">
           + Create New
         </button>
       </div>

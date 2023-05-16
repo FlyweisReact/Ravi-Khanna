@@ -39,7 +39,7 @@ const Banners = () => {
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Content</Form.Label>
-              <Form.Control type="text" />
+              <Form.Control type="file" />
             </Form.Group>
             <Button variant="outline-success" type="submit">
               Submit
