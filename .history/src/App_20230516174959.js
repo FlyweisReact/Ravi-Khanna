@@ -9,6 +9,7 @@ import ECategory from "./E-CommerceAdmin/pages/ECategory";
 import EProduct from "./E-CommerceAdmin/pages/EProduct";
 import EVendorList from "./E-CommerceAdmin/pages/EVendorList";
 import EAdminOrders from "./E-CommerceAdmin/pages/EAdminOrders";
+import EAdminProduct from "./E-CommerceAdmin/pages/EAdminProduct";
 import EAdminDelivery from "./E-CommerceAdmin/pages/EAdminDelivery";
 import EAdminCustomer from "./E-CommerceAdmin/pages/EAdminCustomer";
 import EAdmin from "./E-CommerceAdmin/pages/EAdmin";

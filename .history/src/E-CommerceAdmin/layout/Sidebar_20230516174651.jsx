@@ -24,19 +24,18 @@ const Sidebar = ({ hamb, setHamb }) => {
       icon: <i className="fa-solid fa-user text-xl mr-3 rounded-full"></i>,
       link: "/pushNotification",
       name: "Push Notification",
-    },
-    {
+    },  {
       icon: <MdDashboardCustomize className="text-xl mr-3 rounded-full " />,
       link: "/Category",
       name: "Category",
     },
-
+    
     {
       icon: <i className="fa-solid fa-user text-xl mr-3 rounded-full"></i>,
       link: "/sub-category",
       name: "Sub-Category",
     },
-
+    
     {
       icon: <MdDashboardCustomize className="text-xl mr-3 rounded-full " />,
       link: "/coupon",
@@ -98,7 +97,7 @@ const Sidebar = ({ hamb, setHamb }) => {
   ];
 
   const logOut = () => {
-    localStorage.clear();
+    localStorage.clear()
     navigate("/");
   };
 
@@ -150,8 +149,7 @@ const Sidebar = ({ hamb, setHamb }) => {
             className="flex my-3 items-center cursor-pointer text-gray-900    tracking-wider p-2 rounded-sm"
             style={{ color: "#FFF", textTransform: "uppercase" }}
           >
-            <i className="fa-solid fa-truck  text-xl mr-3 rounded-full"></i>{" "}
-            Tracking
+           <i className="fa-solid fa-truck  text-xl mr-3 rounded-full"></i> Tracking
           </span>
           <span
             className="flex my-3 items-center cursor-pointer text-gray-900    tracking-wider p-2 rounded-sm"
@@ -160,6 +158,7 @@ const Sidebar = ({ hamb, setHamb }) => {
           >
             <BiLogOutCircle className="text-xl mr-3 rounded-full " /> LogOut
           </span>
+
         </nav>
       </aside>
     </>
